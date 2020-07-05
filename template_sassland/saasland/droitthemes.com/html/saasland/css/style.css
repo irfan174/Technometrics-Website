@@ -46,6 +46,7 @@ Table of Content:
 /*===== color =====*/
 /*====================================================*/
 /*====================================================*/
+
 a {
   text-decoration: none;
 }
@@ -247,7 +248,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 }
 
 .dk_bg_two {
-  background: #0f1029;
+  background: #efeafd ;
 }
 
 .seo_title_color {
@@ -320,6 +321,9 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 
 .mb_90 {
   margin-bottom: 90px;
+}
+.mb_91 {
+  margin-bottom: 50px;
 }
 
 .pl_20 {
@@ -7681,8 +7685,8 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 }
 .partner_info .logo_item img {
   max-width: 100%;
-  -webkit-filter: contrast(0.3%);
-  filter: contrast(0.3%);
+  -webkit-filter: contrast(50%);
+  filter: contrast(80%);
   -webkit-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
@@ -7766,7 +7770,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 
 /*=============== partner_logo_area_three css ================*/
 .partner_logo_area_three {
-  padding: 100px 0px;
+  padding: 55px 0px;
 }
 .partner_logo_area_three .partner_info {
   margin-bottom: -20px;
@@ -7781,8 +7785,15 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
   filter: contrast(100%);
   transition: all 0.3s linear;
 }
+.partner_logo_area_three .partner_info .logo_item1 img {
+  filter: contrast(100%);
+  transition: all 0.3s linear;
+}
 .partner_logo_area_three .partner_info .logo_item:hover img {
   filter: brightness(200%);
+}
+.partner_logo_area_three .partner_info .logo_item1:hover img {
+  filter: brightness(10%);
 }
 .partner_logo_area_three .partner_info_two .logo_item {
   display: flex;
@@ -8291,6 +8302,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 }
 
 /*===========experts_team_area css ==========*/
+
 .experts_team_area .learn_btn:hover {
   color: #4069eb;
 }
@@ -8556,7 +8568,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 
 /*=========== sass_partner_logo_area css ==========*/
 .sass_partner_logo_area, .saas_map_area, .saas_subscribe_area {
-  background: #fbfcfe;
+  background: #E5E4E2;
 }
 
 /*=========== saas_subscribe_area css ==========*/
