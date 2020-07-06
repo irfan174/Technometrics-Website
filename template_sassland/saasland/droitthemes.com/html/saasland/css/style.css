@@ -206,6 +206,9 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 .f_500 {
   font-weight: 500;
 }
+.f_501 {
+  font-weight: 550;
+}
 
 .f_600 {
   font-weight: 600;
@@ -250,7 +253,9 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 .dk_bg_two {
   background: #efeafd ;
 }
-
+.dk_bg_three {
+  background: white ;
+}
 .seo_title_color {
   color: #263b5e;
 }
@@ -5800,7 +5805,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
   border-color: rgba(116, 68, 253, 0.2);
 }
 .service_carousel .owl-item .service_item img {
-  width: auto;
+  width: 1000;
 }
 .service_carousel .owl-next {
   position: absolute;
@@ -7692,7 +7697,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
   transition: all 0.3s ease 0s;
 }
 .partner_info .logo_item:hover img {
-  filter: contrast(100%);
+  filter: contrast(190%);
 }
 
 .subscribe_form_info {
@@ -8281,8 +8286,8 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 }
 
 .app_testimonial_item .author-img {
-  width: 70px;
-  height: 70px;
+  width: 90px;
+  height: 90px;
   border-radius: 100%;
   overflow: hidden;
   margin: 0 auto 15px;
