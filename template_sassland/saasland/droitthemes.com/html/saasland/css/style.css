@@ -1952,8 +1952,10 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 .header_area.navbar_fixed .w_menu .nav-item .nav-link:before {
   background: #051441;
 }
-.header_area.navbar_fixed .menu_poss .w_menu .nav-item .nav-link:hover {
-  color: #5e53fb;
+.header_area.navbar_fixed .menu_poss .w_menu .nav-item .nav-link:hover, .header_area.navbar_fixed .w_menu .nav-item.current .nav-link {
+  /*background-color: #c7b5f9;*/
+  color: #5e2ced;
+  text-decoration: underline;
 }
 .header_area.navbar_fixed .menu_poss .w_menu .nav-item .nav-link:hover:before {
   background: #5e53fb;
@@ -16793,7 +16795,11 @@ a .h_head:hover {
   background: #ebfaf9;
   color: #17c7bd;
 }
+/*li.nav-item.current a , .header_area.navbar_fixed .w_menu .nav-item .nav-link {
+    background-color: #5e2ced;
+	color: #5e2ced;*/
 
+}
 /*====================================================*/
 /*====================================================*/
 #pp-nav {
