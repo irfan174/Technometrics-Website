@@ -27,6 +27,7 @@
 </head>
 
 <body>
+	<!-- Preloader part -->
     <div id="preloader">
         <div id="ctn-preloader" class="ctn-preloader">
             <div class="animation-preloader">
@@ -93,10 +94,11 @@
         </div>
     </div>
     <div class="body_wrapper">
+		<!-- Navbar Menu -->
         <header class="header_area" >
             <nav class="navbar navbar-expand-lg menu_one menu_four">
                 <div class="container">
-                    <a class="navbar-brand sticky_logo" href="#"><img src="img/rsz_3company_logo.png" srcset="img/rsz_3company_logo.png" alt="logo"><img src="img/rsz_3company_logo.png" srcset="img/rsz_3company_logo.png" alt=""></a>
+                    <a class="navbar-brand sticky_logo" href="#home"><img src="img/rsz_3company_logo.png" srcset="img/rsz_3company_logo.png" alt="logo"><img src="img/rsz_3company_logo.png" srcset="img/rsz_3company_logo.png" alt=""></a>
                     <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="menu_toggle">
                             <span class="hamburger">
@@ -112,14 +114,14 @@
                     </button>
 
                     <div class="collapse navbar-collapse justify-content-between" id="navbarSupportedContent">
-                        <ul class="navbar-nav menu w_menu pl_50">
+                        <ul id="nav" class="navbar-nav menu w_menu pl_50">
                             <li class="nav-item dropdown submenu">
                                 <a class="nav-link dropdown-toggle" href="#home" role="button" aria-haspopup="true" aria-expanded="false">
                                     Home
                                 </a>
                                 
                             </li>
-                            <li class="nav-item dropdown submenu">
+                            <li class="nav-item">
                                 <a class="nav-link dropdown-toggle" href="#services" role="button"  aria-haspopup="true" aria-expanded="false">
                                     Services
                                 </a>
@@ -137,31 +139,31 @@
                                 </a>
                                 
                             </li>
-                            <li class="nav-item dropdown submenu mega_menu">
+                            <li class="nav-item dropdown submenu">
                                 <a class="nav-link dropdown-toggle" href="#partners" role="button"  aria-haspopup="true" aria-expanded="false">
 									Partners 
                                 </a>
                                 
                             </li>
-							<li class="nav-item dropdown submenu mega_menu">
+							<li class="nav-item dropdown submenu">
                                 <a class="nav-link dropdown-toggle" href="#testimonial" role="button"  aria-haspopup="true" aria-expanded="false">
 									Testimonials 
                                 </a>
                                 
                             </li>
-							<li class="nav-item dropdown submenu mega_menu">
+							<li class="nav-item dropdown submenu">
                                 <a class="nav-link dropdown-toggle" href="#team" role="button"  aria-haspopup="true" aria-expanded="false">
 									Team 
                                 </a>
                                 
                             </li>
-							<li class="nav-item dropdown submenu mega_menu">
+							<li class="nav-item dropdown submenu">
                                 <a class="nav-link dropdown-toggle" href="#clients" role="button" aria-haspopup="true" aria-expanded="false">
 									Clients 
                                 </a>
                                 
                             </li>
-							<li class="nav-item dropdown submenu mega_menu">
+							<li class="nav-item dropdown submenu scroll">
                                 <a class="nav-link dropdown-toggle" href="#contact" role="button" aria-haspopup="true" aria-expanded="false">
 									Contact 
                                 </a>
@@ -173,7 +175,11 @@
                 </div>
             </nav>
         </header>
-
+		
+		
+		
+		
+		<!-- Home Section Start -->
         <section id="home" class="agency_banner_area_two">
             <div class="dot_shap one"></div>
             <div class="dot_shap two"></div>
@@ -245,11 +251,14 @@
                 </div>
             </div>
         </section>
+		<!-- Home Section End -->
 		
+		
+		
+		
+		<!-- About Us Section Start -->
         <section class="agency_about_area d-flex bg_color">
-			
-			
-            <div id="about" class="col-lg-6 about_content_left ">
+			<div id="about" class="col-lg-6 about_content_left ">
                 <div class="about_content mb_30">
                     <h2 class="f_size_30 f_700 l_height45 mb_20">Our main focus is to deliver the best quality.</h2>
                     <p class="f_size_20 f_400">TECHNOMETRICS was formed to identify and meet the needs of the rapidly growing middle class and enterprises in Bangladesh.<br>We work as the bridge between the customer and the supplier or integrator to ensure a seamless transition.</p>
@@ -307,10 +316,13 @@
                     </div>
                 </div>
             </div>
-			
+		</section>
+		<!-- About Us Section End -->
 		
-        </section>
-
+		
+		
+		
+		<!-- Certification Section Start -->
         <section class="agency_featured_area agency_featured_area_two  bg_color">
 		<h2 class="f_size_30 f_600 t_color3 l_height40 text-center mb_90 wow fadeInDown" data-wow-delay="0.7s">Our Affilation & Certifications</h2>
             <div class="container">
@@ -369,6 +381,12 @@
             </div>
 		
         </section>
+		<!-- Certification Section End -->
+		
+		
+		
+		
+		<!-- Trusted Section Start -->
         <section class="fun_fact_area fun_fact_area_two">
             <div class="container">
                 <div class="row flex-row-reverse">
@@ -406,6 +424,12 @@
                 </div>
             </div>
         </section>
+		<!-- Trusted Section End -->
+		
+		
+		
+		
+		<!-- Industry Section Start -->
 		<section id="industry" class="prototype_service_area_two">
             <div class="container custom_container">
                 <div class="sec_title text-center mb_70">
@@ -446,7 +470,7 @@
 					<div class="service_item">
                         <div class="icon s_icon_four"><img src="img/home2/airplane.png" alt=""></div>
                         <h4 class="f_600 f_size_20 l_height28 t_color2 mb_20">Aviation<br>Services</h4>
-                        <p>Experience in spares maintenance and emergency aircraft maintenance services within the airport</p>
+                        <p>Experience in spares maintenance and emergency aircraft maintenance services within the airport</p><br><br>
                         <img class="" src="img/home2/airplane1.jpg" alt="">
                     </div>
 					<div class="service_item">
@@ -458,7 +482,12 @@
                 </div>
             </div>
         </section>
+		<!-- Industry Section End -->
 		
+		
+		
+		
+		<!-- Partners Section Start -->
 		<section id="partners" class="partner_logo_area_three dk_bg_two">
 		<h2 class="f_size_30 f_600 t_color3 l_height40 text-center mb_60 wow fadeInUp" data-wow-delay="0.7s">Our Partners</h2>
 		
@@ -482,6 +511,12 @@
             </div>
         </div>
     </section>
+	<!-- Partners Section End -->
+	
+	
+	
+	
+	<!-- Testimonials Section Start -->
 	<section id="testimonial" class="app_testimonial_area">
         <div class="text_shadow" data-line="Feedback"></div>
         <div class="container nav_container">
@@ -522,6 +557,12 @@
             </div>
         </div>
     </section>
+	<!-- Testimonials Section End -->
+	
+	
+	
+	
+	<!-- Team Section Start -->
 	<section id="team" class="experts_team_area sec_pad" >
         <div class="container" style="margin-top:50px" style="color: #f5f8fd">
             <div class="sec_title text-center mb_70">
@@ -708,6 +749,12 @@
             </div>
         </div>
     </section>
+	<!-- Team Section End -->
+	
+	
+	
+	
+	<!-- Clients Section Start -->
 	<section id="clients" class="sass_partner_logo_area sec_pad">
         <div class="container">
             <div class="sec_title text-center" style="visibility: visible;">
@@ -756,6 +803,12 @@
             </div>
         </div>
     </section>
+	<!-- Clients Section End -->
+	
+	
+	
+	
+	<!-- Contact Us Section Start -->
 	<section id="contact" class="contact_info_area sec_pad bg_color">
             <div class="container">
                 <div class="row">
@@ -809,6 +862,12 @@
                 </div>
             </div>
         </section>
+		<!-- Contact Us Section End -->
+		
+		
+		
+		
+		<!-- Footer Section Start -->
 		<footer class="footer_area_two ">
             <div class="footer_top_two dk_bg_three">
                 <div class="container">
@@ -852,7 +911,7 @@
                 </div>
             </div>
         </footer>
-	
+		<!-- Footer Section End -->
 
 	
         
@@ -874,11 +933,18 @@
     <script src="js/gmaps.min.js"></script>
     <script src="js/plugins.js"></script>
     <script src="js/main.js"></script>
+	<script src="js/jquery.nav.js"></script>
 	<!-- contact js -->
     <script src="js/jquery.form.js"></script>
     <script src="js/jquery.validate.min.js"></script>
     <script src="js/contact.js"></script>
     <script src="js/main.js"></script>
+	
+	<script>
+		$(document).ready(function() {
+			$('#nav').onePageNav();
+		});
+	</script>
 </body>
 
 
