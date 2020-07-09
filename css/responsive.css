@@ -1884,7 +1884,7 @@
         text-align: left !important;
     }
 	.agency_featured_item .agency_1featured_img{
-		padding-top: 60px;
+		padding-top: 0px;
         text-align: center !important;
     }
     .agency_content{
@@ -3218,7 +3218,7 @@
         padding: 70px 0px;
     }
     .agency_featured_area {
-        padding-top: 120px;
+        padding-top: 50px;
     }
     .agency_testimonial_area,.software_featured_area{
         padding-top: 70px

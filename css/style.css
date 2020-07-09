@@ -4518,11 +4518,11 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 
 /*============== agency_featured_area css =============*/
 .agency_featured_area {
-  padding-top: 30px;
+  padding-top: 50px;
 }
 
 .agency_featured_area_two {
-  padding-bottom: 0px;
+  padding-bottom: 10px;
 }
 
 .features_info {
@@ -4581,7 +4581,10 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 }
 
 .agency_featured_item {
-  margin-top: 130px;
+  margin-top: 100px;
+}
+.agency_featured_item_second {
+  margin-top: 230px;
 }
 .agency_featured_item .agency_featured_content {
   position: relative;
@@ -7917,6 +7920,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 
 .fun_fact_area_two {
   background: #f7f6fa;
+  margin: 0px 0;
 }
 
 .fun_fact_content h1 {
@@ -9995,7 +9999,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 }
 
 .mapbox {
-  height: 400px;
+  height: 450px;
   box-shadow: 0px 3px 4px 0px rgba(12, 0, 46, 0.05);
   border: 10px solid #fff;
 }
@@ -21129,7 +21133,7 @@ a .h_head:hover {
   color: #fff;
 }
 .f_social_icon a + a {
-  margin-left: 10px;
+  margin-left: 0px;
 }
 
 .pagescroll_btn {
@@ -21821,10 +21825,17 @@ a .h_head:hover {
   text-align: center;
 }
 
-.basisLogo9001 img, .basisLogo27001 img  {
+.basisLogo img {
   height: 50%;
-  width: 47%;
+  width: 55%;
   margin-top: 0px;
+  text-align: center!important;
+}
+
+.basisLogo9001 img, .basisLogo27001 img  {
+  height: 100%;
+  width: 55%;
+  margin-top: 10px;
   text-align: center!important;
 }
 
