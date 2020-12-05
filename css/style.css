@@ -1976,7 +1976,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 }
 .header_area.navbar_fixed .menu_poss .w_menu .nav-item .nav-link:hover, .header_area.navbar_fixed .w_menu .nav-item.current .nav-link {
   /*background-color: #c7b5f9;*/
-  color: #5e2ced;
+  color: #018bbe;
   text-decoration: underline;
 }
 .header_area.navbar_fixed .menu_poss .w_menu .nav-item .nav-link:hover:before {
@@ -2940,9 +2940,9 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 
 /*================ agency_banner_area_two css ===============*/
 .agency_banner_area_two {
-  background-image: -moz-linear-gradient(40deg, #5e2ced 0%, #a485fd 100%);
-  background-image: -webkit-linear-gradient(40deg, #5e2ced 0%, #a485fd 100%);
-  background-image: -ms-linear-gradient(40deg, #5e2ced 0%, #a485fd 100%);
+  background-image: -moz-linear-gradient(40deg, #00aff0 0%, #017098 100%);
+  background-image: -webkit-linear-gradient(40deg, #00aff0 0%, #017098 100%);
+  background-image: -ms-linear-gradient(40deg, #00aff0 0%, #017098 100%);
   padding: 230px 0px 140px;
   position: relative;
   z-index: 1;
